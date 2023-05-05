@@ -1,10 +1,10 @@
 "use client";
 
-import NavBar from "@/components/navbar";
-import WordDisplay from "@/components/wordDisplay";
-import CycleControl from "@/components/cycleControl";
+import NavBar from "../components/navbar";
+import WordDisplay from "../components/wordDisplay";
+import CycleControl from "../components/cycleControl";
 import { useState, useRef } from "react";
-import { hfOneArray } from "@/wordArrays/hfOneArray";
+import { hfOneArray } from "../wordArrays/hfOneArray";
 
 export default function HighFrequencyOne() {
   const [highFrequencyWord, setHighFrequencyWord] = useState("");

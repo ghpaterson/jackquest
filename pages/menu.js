@@ -1,5 +1,5 @@
 import Link from "next/link";
-import NavBar from "@/components/navbar";
+import NavBar from "../components/navbar";
 import { FaSpaceShuttle } from "react-icons/fa";
 import { GiSpaceSuit } from "react-icons/gi";
 

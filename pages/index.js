@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <main>
       <section className="md:flex justify-center pt-10">
-        <div className=" font-nasa text-6xl md:text-8xl text-spaceDark flex flex-col items-center justify-center py-4">
+        <div className=" font-orbitron text-6xl md:text-8xl text-spaceDark flex flex-col items-center justify-center py-4">
           <h1>Jack's</h1>
           <h2>SpellQuest</h2>
           <Link href="/menu">
-            <button className="bg-spaceDark rounded-xl py-2 px-4 text-4xl text-spaceYellow font-nasa">
+            <button className="bg-spaceDark rounded-xl py-2 px-4 text-4xl text-spaceYellow font-orbitron">
               Let's Go!
             </button>
           </Link>

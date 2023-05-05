@@ -29,8 +29,8 @@ export default function HfTwo() {
       <NavBar />
       <div className="mt-20">
         <div className="flex flex-col justify-center items-center gap-2">
-          <h1 className="font-comic text-5xl lg:text-6xl">Mission Two...</h1>
-          <h1 className="font-comic text-5xl lg:text-6xl">Let's Read</h1>
+          <h1 className="font-orbitron text-5xl lg:text-6xl">Mission Two...</h1>
+          <h1 className="font-orbitron text-5xl lg:text-6xl">Let's Read</h1>
         </div>
         <div className="flex justify-center gap-4 lg:gap-14 my-10 px-2 font-comic">
           <WordDisplay highFrequencyWord={highFrequencyWord} />

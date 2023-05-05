@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         comic: ["Comic Neue"],
         nasa: ["nasa"],
+        orbitron: ["Orbitron", "sans-serif"],
       },
       colors: {
         spaceDark: "#2A2F4F",

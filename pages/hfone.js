@@ -28,7 +28,7 @@ export default function HighFrequencyOne() {
     <main>
       <NavBar />
       <div className="mt-20 md:mt-10 text-spaceDark">
-        <div className="flex flex-col justify-center items-center gap-2 font-nasa">
+        <div className="flex flex-col justify-center items-center gap-2 font-orbitron">
           <h1 className=" text-5xl lg:text-6xl">Mission One...</h1>
           <h1 className=" text-5xl lg:text-6xl">Let's Read</h1>
         </div>

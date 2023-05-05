@@ -9,7 +9,7 @@ export default function CycleControl({ stopCycle, startCycle }) {
             stopCycle();
             startCycle(1750);
           }}
-          className="bg-spaceGreen font-comic text-spaceDark text-xl py-2 px-6 rounded-xl"
+          className="bg-spaceDark font-comic text-spaceGreen text-xl py-2 px-6 rounded-xl"
         >
           SLOW
         </button>
@@ -18,7 +18,7 @@ export default function CycleControl({ stopCycle, startCycle }) {
             stopCycle();
             startCycle(1250);
           }}
-          className="bg-spaceYellow font-comic text-spaceDark text-xl py-2 px-6 rounded-xl"
+          className="bg-spaceDark font-comic text-spaceYellow text-xl py-2 px-6 rounded-xl"
         >
           MEDIUM
         </button>
@@ -27,7 +27,7 @@ export default function CycleControl({ stopCycle, startCycle }) {
             stopCycle();
             startCycle(750);
           }}
-          className="bg-spaceRed font-comic text-spaceDark text-xl py-2 px-6 rounded-xl"
+          className="bg-spaceDark font-comic text-spaceRed text-xl py-2 px-6 rounded-xl"
         >
           FAST
         </button>

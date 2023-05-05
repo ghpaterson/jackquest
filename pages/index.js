@@ -9,7 +9,7 @@ export default function Home() {
           <h1>Jack's</h1>
           <h2>SpellQuest</h2>
           <Link href="/menu">
-            <button className="bg-spaceDark rounded-xl py-2 px-4 text-4xl text-spaceLilac font-nasa">
+            <button className="bg-spaceDark rounded-xl py-2 px-4 text-4xl text-spaceYellow font-nasa">
               Let's Go!
             </button>
           </Link>

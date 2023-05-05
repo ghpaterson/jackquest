@@ -14,7 +14,7 @@ export default function Home() {
             </button>
           </Link>
         </div>
-        <Image src={astronaut} width={600} />
+        <Image src={astronaut} width={590} />
       </section>
       <section className="flex justify-center py-8"></section>
     </main>

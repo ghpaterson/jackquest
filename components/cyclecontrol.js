@@ -9,27 +9,27 @@ export default function CycleControl({ stopCycle, startCycle }) {
             stopCycle();
             startCycle(1750);
           }}
-          className="bg-green-500 font-comic text-white text-xl py-2 px-6 rounded-xl"
+          className="bg-spaceGreen font-comic text-spaceDark text-xl py-2 px-6 rounded-xl"
         >
-          Slow
+          SLOW
         </button>
         <button
           onClick={() => {
             stopCycle();
             startCycle(1250);
           }}
-          className="bg-yellow-500 font-comic text-white text-xl py-2 px-6 rounded-xl"
+          className="bg-spaceYellow font-comic text-spaceDark text-xl py-2 px-6 rounded-xl"
         >
-          Medium
+          MEDIUM
         </button>
         <button
           onClick={() => {
             stopCycle();
             startCycle(750);
           }}
-          className="bg-red-500 font-comic text-white text-xl py-2 px-6 rounded-xl"
+          className="bg-spaceRed font-comic text-spaceDark text-xl py-2 px-6 rounded-xl"
         >
-          Fast
+          FAST
         </button>
       </div>
       <div className="flex justify-center my-6">
@@ -37,9 +37,9 @@ export default function CycleControl({ stopCycle, startCycle }) {
           onClick={() => {
             stopCycle();
           }}
-          className="bg-red-500 font-comic text-white text-4xl py-2 px-6 rounded-xl"
+          className="bg-spaceRed font-comic text-white text-4xl py-2 px-6 rounded-xl"
         >
-          Stop
+          STOP
         </button>
       </div>
     </>

@@ -1,8 +1,8 @@
 "use client";
 
 import NavBar from "../components/navbar";
-import WordDisplay from "../components/wordDisplay";
-import CycleControl from "../components/cycleControl";
+import WordDisplay from "../components/worddisplay";
+import CycleControl from "../components/cyclecontrol";
 import { useState, useRef } from "react";
 import { hfOneArray } from "../wordArrays/hfOneArray";
 

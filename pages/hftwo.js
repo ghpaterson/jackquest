@@ -4,11 +4,11 @@ import NavBar from "@/components/navbar";
 import WordDisplay from "@/components/wordDisplay";
 import CycleControl from "@/components/cycleControl";
 import { useState, useRef } from "react";
-import { hfOneArray } from "@/wordArrays/hfOneArray";
+import { hfTwoArray } from "@/wordArrays/hfTwoArray";
 
-export default function HighFrequencyOne() {
+export default function HfTwo() {
   const [highFrequencyWord, setHighFrequencyWord] = useState("");
-  const highFrequencyWords = hfOneArray;
+  const highFrequencyWords = hfTwoArray;
   const intervalId = useRef(null);
 
   function startCycle(intervalTime) {
@@ -27,9 +27,9 @@ export default function HighFrequencyOne() {
   return (
     <main>
       <NavBar />
-      <div className="mt-20 md:mt-10">
+      <div className="mt-20">
         <div className="flex flex-col justify-center items-center gap-2">
-          <h1 className="font-comic text-5xl lg:text-6xl">Mission One...</h1>
+          <h1 className="font-comic text-5xl lg:text-6xl">Mission Two...</h1>
           <h1 className="font-comic text-5xl lg:text-6xl">Let's Read</h1>
         </div>
         <div className="flex justify-center gap-4 lg:gap-14 my-10 px-2 font-comic">

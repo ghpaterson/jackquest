@@ -20,6 +20,8 @@ module.exports = {
         spaceRed: "#DB5461",
         spaceGreen: "#94C9A9",
         spaceYellow: "#EC9F05",
+        spaceBlue: "#009FB7",
+        spaceOrange: "#FF4A1C",
       },
     },
   },

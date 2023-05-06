@@ -1,6 +1,6 @@
 export const hfOneArray = [
   "a",
-  "i",
+  "I",
   "and",
   "be",
   "in",

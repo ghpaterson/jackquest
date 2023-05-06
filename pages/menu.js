@@ -6,6 +6,7 @@ import {
   GiSpaceShuttle,
   GiRingedPlanet,
   GiEarthAsiaOceania,
+  GiDeathStar,
 } from "react-icons/gi";
 import { SiStartrek } from "react-icons/si";
 
@@ -74,6 +75,16 @@ export default function Menu() {
             className="flex flex-col justify-center items-center gap-2"
           >
             <div className="text-spacePurple">Mission Indigo</div>
+            <GiDeathStar className="text-6xl" />
+            <div className="text-xl">Death Star</div>
+          </Link>
+        </div>
+        <div className="bg-spaceLight w-80 p-4 rounded-xl gap-2 font-orbitron">
+          <Link
+            href="/hfseven"
+            className="flex flex-col justify-center items-center gap-2"
+          >
+            <div className="text-spaceDark">Mission Violet</div>
             <GiEarthAsiaOceania className="text-6xl" />
             <div className="text-xl">Return Home</div>
           </Link>

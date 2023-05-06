@@ -1,0 +1,16 @@
+export const hfSevenArray = [
+  "about",
+  "before",
+  "could",
+  "first",
+  "little",
+  "look",
+  "more",
+  "other",
+  "right",
+  "their",
+  "there",
+  "want",
+  "where",
+  "which",
+];

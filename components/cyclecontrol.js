@@ -3,13 +3,13 @@ import React from "react";
 export default function CycleControl({ stopCycle, startCycle }) {
   return (
     <>
-      <div className="flex justify-center gap-4 font-orbitron">
+      <div className="flex justify-center gap-2 font-orbitron">
         <button
           onClick={() => {
             stopCycle();
             startCycle(1750);
           }}
-          className="bg-spaceDark text-spaceGreen text-xl py-2 px-6 rounded-xl"
+          className="bg-spaceDark text-spaceGreen text-base md:text-xl py-2 px-4 rounded-xl"
         >
           SLOW
         </button>
@@ -18,7 +18,7 @@ export default function CycleControl({ stopCycle, startCycle }) {
             stopCycle();
             startCycle(1250);
           }}
-          className="bg-spaceDark text-spaceYellow text-xl py-2 px-6 rounded-xl"
+          className="bg-spaceDark text-spaceYellow text-base md:text-xl py-2 px-4 rounded-xl"
         >
           MEDIUM
         </button>
@@ -27,7 +27,7 @@ export default function CycleControl({ stopCycle, startCycle }) {
             stopCycle();
             startCycle(750);
           }}
-          className="bg-spaceDark text-spaceRed text-xl py-2 px-6 rounded-xl"
+          className="bg-spaceDark text-spaceRed text-base md:text-xl py-2 px-4 rounded-xl"
         >
           FAST
         </button>

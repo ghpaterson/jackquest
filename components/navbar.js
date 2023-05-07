@@ -8,7 +8,9 @@ export default function NavBar() {
   return (
     <main className="flex justify-between text-spaceDark font-orbitron text-2xl md:text-4xl py-4 mx-8">
       <div className="flex md:gap-4">
-        <h1>SpellQuest</h1>
+        <Link href="/">
+          <h1>SpellQuest</h1>
+        </Link>
         <GiFallingStar />
       </div>
       <nav>
